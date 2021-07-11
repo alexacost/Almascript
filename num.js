@@ -10,7 +10,7 @@ $(document).ready(function(){
                 suma = suma + 1;
             }
         }
-        console.log(suma)
+        console.log(suma);
 
     });
   });
