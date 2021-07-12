@@ -22,7 +22,7 @@ $(document).ready(function(){
             if (nameSplit[i]==='d' || nameSplit[i]==='m' || nameSplit[i]==='v' ) {
                 suma = suma + 4;
             }
-            if (nameSplit[i]==='e' || nameSplit[i]==='n' || nameSplit[i]==='v' ) {
+            if (nameSplit[i]==='e' || nameSplit[i]==='n' || nameSplit[i]==='w' ) {
                 suma = suma + 5;
             }
             if (nameSplit[i]==='f' || nameSplit[i]==='o' || nameSplit[i]==='x' ) {
@@ -36,9 +36,6 @@ $(document).ready(function(){
             }
             if (nameSplit[i]==='i' || nameSplit[i]==='r') {
                 suma = suma + 9;
-            }
-            if (nameSplit[i]==='i' || nameSplit[i]==='r') {
-                suma = suma + 0;
             }
         }
         sumaIntoString = String(suma); 
@@ -66,7 +63,7 @@ $(document).ready(function(){
             if (nameSplit[i]==='d' || nameSplit[i]==='m' || nameSplit[i]==='v' ) {
                 suma1 = suma1 + 4;
             }
-            if (nameSplit[i]==='e' || nameSplit[i]==='n' || nameSplit[i]==='v' ) {
+            if (nameSplit[i]==='e' || nameSplit[i]==='n' || nameSplit[i]==='w' ) {
                 suma1 = suma1 + 5;
             }
             if (nameSplit[i]==='f' || nameSplit[i]==='o' || nameSplit[i]==='x' ) {
@@ -80,9 +77,6 @@ $(document).ready(function(){
             }
             if (nameSplit[i]==='i' || nameSplit[i]==='r') {
                 suma1 = suma1 + 9;
-            }
-            if (nameSplit[i]==='') {
-                suma1 = suma1 + 0;
             }
         }
 
