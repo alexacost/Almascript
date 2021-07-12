@@ -41,6 +41,7 @@ $(document).ready(function(){
         sumaIntoString = String(suma); 
         sumaSplit = sumaIntoString.split('');
         sumaFinal = parseInt(sumaSplit[0]) + parseInt(sumaSplit[1])
+        
 
         //nombre2
 
@@ -80,6 +81,7 @@ $(document).ready(function(){
             }
         }
 
+    
         suma1IntoString = String(suma1);
         suma1Split = suma1IntoString.split('');
         suma1Final = parseInt(suma1Split[0]) + parseInt(suma1Split[1])
@@ -90,12 +92,16 @@ $(document).ready(function(){
         total = suma1Final + sumaFinal
         totalIntoString = String(total); 
         totalSplit = totalIntoString.split('');
-        if (suma1Final === 0) {
+        
+        if (suma1Final === 0 ) {
+            totalFinal = parseInt(totalSplit[0])
+        }
+        if ( isNaN(parseInt(totalSplit[1]))) {
             totalFinal = parseInt(totalSplit[0])
         }
         else {
         totalFinal = parseInt(totalSplit[0]) + parseInt(totalSplit[1])
-        }
+        } 
         $("#num").text(totalFinal)
 
 
